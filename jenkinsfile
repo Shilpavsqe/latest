@@ -52,8 +52,9 @@ pipeline {
     stage('Docker publish') {
     steps {
     sh '''
-          docker login -u="shilpa0411" -p="Corp@1994"
+          docker login -u="shilpa0411" -p="Corp@1992"
           docker push shilpa0411/dockerfile:v1
 	  '''                } 
                }
          }
+	 }
